@@ -1,7 +1,5 @@
-def cube(y): 
-    return y*y*y; 
 
-g = lambda x: x*x*x 
-print(g(7)) 
-  
-print(cube(5)) 
+
+my_List=[3,2,4,5,8,6,9]
+even = list(filter(lambda x: x%2 ==0,my_List))
+print(even)
